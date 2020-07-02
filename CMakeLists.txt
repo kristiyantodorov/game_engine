@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.5)
-project (opengl_tutorial)
+project (game_engine)
 
 add_compile_options(--std=c++11)
 
