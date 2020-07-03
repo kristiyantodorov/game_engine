@@ -10,6 +10,8 @@ set(SRCS
     src/VertexArray.cpp
     src/VertexBufferLayout.cpp
     src/TextureLoader.cpp
+    src/Triangle.cpp
+    src/Camera.cpp
     
     src/vendor/stb_image/stb_image.cpp
 )
