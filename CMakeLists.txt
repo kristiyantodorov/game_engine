@@ -5,7 +5,12 @@ add_compile_options(--std=c++11)
 
 set(SRCS
     src/main.cpp
-    src/shader_helper.cpp
+    src/ShaderHelper.cpp
+    src/VertexBuffer.cpp
+    src/VertexArray.cpp
+    src/VertexBufferLayout.cpp
+    src/TextureLoader.cpp
+    
     src/vendor/stb_image/stb_image.cpp
 )
 
