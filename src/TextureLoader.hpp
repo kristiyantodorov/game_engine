@@ -7,8 +7,8 @@
 class TextureLoader {
 public:
     TextureLoader(const std::string& filepath);
-    void bind() const;
-    void unbind() const;
+    void bind(unsigned int texture_id) const;
+    void unbind(unsigned int texture_id) const;
 
 private:
     unsigned int m_Id;
